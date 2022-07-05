@@ -5,3 +5,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/***banners section***/
+#banner-section{
+    background: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
