@@ -108,3 +108,33 @@ hr{
     font-size: 20px;
     line-height: 2.85rem;
 }
+/**service section**/
+.services-section{
+    width: 100%;
+    margin-top: 40px;
+}
+.service-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     margin-top: 5%;
+}
+.service-content{
+    width: 50%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    
+	    
+}
+
+.service{
+    text-align: center;
+    width: 100vh;
+    height: 80vh;
+    background-color: #9b9797;
+}
