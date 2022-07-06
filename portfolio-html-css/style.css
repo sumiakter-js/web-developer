@@ -37,8 +37,8 @@ body{
     line-height: 70px;
 }
 .banner-content p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
 }
 /* *donate section* */
 #donate-section{
@@ -123,18 +123,83 @@ hr{
      margin-top: 5%;
 }
 .service-content{
-    width: 50%;
+    width: 100%;
     display: flex;
 	align-items: center;
 	justify-content: center;
     text-align: center;
+    column-gap: 10px;
+    margin-top: 40px;
     
 	    
 }
 
 .service{
     text-align: center;
-    width: 100vh;
-    height: 80vh;
+    width: 50vh;
+    height: 40vh;
     background-color: #9b9797;
+}
+/**newsletter**/
+#newsletter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+.newletter-form{
+    width: 100vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+    background-color: #FFF4D6;
+    
+
+}
+.newsletter-form input{
+    padding: 15px 60px;
+    z-index: 2;
+    border: 0px;
+    outline: 0;
+    font-size: 20px;
+}
+.newsletter-form button{
+    padding: 15px 30px;    
+    margin-left: -5px;
+    background-color: #FF5959 ;
+    font-size: 20px;
+    color: #fff;
+    border: 0px;
+    outline: 0;
+}
+/**footer**/
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+footer h2{
+    font-size: 40px;
+    line-height: 53px;
+    color: #FF5959;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+footer p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
 }
