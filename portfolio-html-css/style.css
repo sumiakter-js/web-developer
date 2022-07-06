@@ -40,6 +40,19 @@ body{
     font-size: 30px;
     line-height: 40px;
 }
+.home-button{
+    padding: 15px 30px;
+    background-color: #FF5959;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+.home-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+}
 /* *donate section* */
 #donate-section{
     margin-top: 40px;
@@ -54,7 +67,7 @@ body{
 }
 .donate-title h1{
     font-size: 40px;
-    line-height: 60px;
+    line-height: 5rem;
 }
 .donate-title p{
     text-align: center;
@@ -81,6 +94,16 @@ body{
     border: 1px solid #9b9797;
     text-align: center;
 }
+.item:hover{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+.active{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
 hr{
     width: 50%;
     color: #9b9797;
@@ -103,8 +126,14 @@ hr{
     width: 30vh;
     height: 7vh;
     margin-top: 20px;
+    background-color: #FF5959;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+
 }
 .link-btn a{
+    color: #fff;
     font-size: 20px;
     line-height: 2.85rem;
 }
@@ -122,23 +151,89 @@ hr{
      text-align: center;
      margin-top: 5%;
 }
+.service-title h1{
+    font-size: 40px;
+    line-height: 5rem;
+}
+.service-title p{
+    font: 20px;
+    line-height: 3rem;
+}
 .service-content{
     width: 100%;
     display: flex;
 	align-items: center;
 	justify-content: center;
-    text-align: center;
     column-gap: 10px;
-    margin-top: 40px;
-    
+    margin-top: 40px;   
 	    
 }
-
+.service-desc h1{
+    font-size: 25px;
+    line-height: 50px;
+}
+.service-desc p{
+    font-size: 16px;
+    line-height: 1.8rem;
+}
+.service-img img{
+    width: 100px;
+    height: 80px;
+}
 .service{
-    text-align: center;
     width: 50vh;
     height: 40vh;
-    background-color: #9b9797;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.service-1{
+    background: rgba(79, 157, 166, 0.1);
+    
+}
+.service-2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.service-3{
+    background: #FFF4D6;
+}
+/**about us**/
+#about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    margin-top: 5%;
+}
+.about-content{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 500px;
+    height: 400px;
+}
+.about-desc{
+    width: 50%;
+}
+.about-desc .about-subtitle{
+    font-size: 20px;
+    line-height: 5rem;
+
+}
+.about-story{
+    font-size: 18px;
+    line-height: 1.87rem;
+}
+.about-desc h2{
+    font-size: 30px;
+    line-height: 3rem;
 }
 /**newsletter**/
 #newsletter{
@@ -150,6 +245,14 @@ hr{
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+ }
+ .newsletter-title h1{
+    font-size: 40px;
+    line-height: 5rem;
+ }
+ .newsletter-title p{
+    font-size: 20px;
+    line-height: 3rem;
  }
 .newletter-form{
     width: 100vh;
