@@ -14,6 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 #banner-section h1{
     color: #fff;
@@ -21,7 +22,6 @@ body{
 .banner-content{
     width: 50%;
     height: 60vh;
-    background-color: #9b9797;
     display: flex;
 	align-items: center;
 	justify-content: center;
@@ -29,8 +29,20 @@ body{
 	flex-wrap: wrap;
 	flex-flow: row wrap;
 	align-content: flex-end;
+    margin-left: 25%;
+    text-align: center;
 }
+.banner-content h1{
+    font-size: 50px;
+    line-height: 70px;
+}
+.banner-content p{
+    font-size: 20px;
+    line-height: 30px;
+}
+/* *donate section* */
 #donate-section{
+    margin-top: 40px;
     width: 100%;
 }
 .donate-title{
@@ -40,8 +52,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+.donate-title h1{
+    font-size: 40px;
+    line-height: 60px;
+}
 .donate-title p{
     text-align: center;
+    font-size: 18px;
+    line-height: 27px;
 }
 .donate-items{
     width: 50%;
@@ -51,8 +69,13 @@ body{
 	justify-content: center;
 	flex-direction: row;
     column-gap: 20px;
+    margin-top: 3%;
+    margin-left: 25%;
 }
 .item{
+    display: flex;
+    align-items: center;
+	justify-content: center;
     width: 6em;
     height: 6em;
     border: 1px solid #9b9797;
@@ -70,14 +93,16 @@ hr{
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
+    margin-left: 25%;
 }
 .donate-submit p{
     line-height: 3rem;
+    font-size: 18px;
 }
 .link-btn{
     width: 30vh;
     height: 7vh;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .link-btn a{
     font-size: 20px;
